@@ -1,0 +1,160 @@
+.sait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 2350px;
+}
+
+
+/* ХЕДЕР */
+.header_all {
+    box-sizing: border-box;
+    width: 1600px;
+    height: 80px;
+    color: #000;
+    display: flex;
+   border: 1px;
+    
+}
+.menu_nav {
+    
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.menu {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.logo {
+    
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    
+}
+/* БАНЕР */
+
+.baner {
+    
+    box-sizing: border-box;
+    border: 0px;
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+    
+}
+.title1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+align-items: center;
+text-align: center;
+}
+#t11 {
+    padding-top: 1px;
+}
+
+#button_baner {
+    width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-right: auto;
+margin-left: auto;
+}
+/* ПЕРЕВАГИ */
+.text_box {
+    margin-left: 30px;
+    }
+    .text_box_all {
+        margin-left: 215px;
+        margin-right: 215px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 94px;
+    }
+
+/* ЩО РОБИМО */
+.inwork_all {
+    margin-left: auto;
+    margin-right: auto;
+}
+.inwork {
+    width: 370px;
+    height: 294px;
+    
+}
+#wwd_h2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+}
+
+/* КОМАНДА */
+.team {
+    box-sizing: border-box;
+    border: 0px;
+    height: 648px;
+    background-color: #F5F4FA;
+    box-sizing: border-box;
+}
+.card_all {
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 260px; height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+}
+.card {
+    height: 368px; width: 270px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+.card-img-top {
+    width: 260px; height: 270px
+}
+
+#card2 {
+    padding-left: 30px;
+}
+#card3 {
+    padding-left: 30px;
+}
+#card4 {
+    padding-left: 30px;
+}
+
+/* ФУТЕР */
+.footer {
+    box-sizing: border-box;
+    border: 0px;
+height: 252px;
+background-color: #2F303A;
+}
+#logo_f {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+.footer_txt {
+    margin-left: 215px;
+    padding-top: 60px;
+    
+}
