@@ -1,0 +1,78 @@
+.body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 2350px;
+}
+/* ХЕДЕР */
+.header_all {
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color:#ECECEC;
+    width: 1600px;
+    height: 80px;
+    color: #000;
+    display: flex;
+   border: 1px;
+    
+}
+.menu_nav {
+    
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.text_menu {
+    font-family: 'Roboto', sans-serif;
+}
+.adremtext {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    list-style: none;
+}
+.menu {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.logo {
+    
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    margin-left: 215px;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+}
+.menu_ul {
+    display: flex;
+    list-style: none;
+}
+#stud {
+   
+    font-style: normal;
+    font-weight: 500;
+margin-left: 93px;
+    text-decoration: #2196F3;
+}
+#port {
+    padding-left: 50px;
+text-decoration: #2196F3;
+}
+#kont {
+    padding-left: 50px; 
+}
+#email {
+margin-left: 300px;
+}
+#tel {
+padding-left: 50px;
+}

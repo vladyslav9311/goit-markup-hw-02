@@ -24,6 +24,15 @@
     margin-bottom: auto;
     
 }
+.text_menu {
+    font-family: 'Roboto', sans-serif;
+}
+.adremtext {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    list-style: none;
+}
 .menu {
     display: flex;
     margin-top: auto;
@@ -35,8 +44,39 @@
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    
+    margin-left: 215px;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
 }
+.menu_ul {
+    display: flex;
+    list-style: none;
+}
+#stud {
+   
+    font-style: normal;
+    font-weight: 500;
+margin-left: 93px;
+    text-decoration: #2196F3;
+}
+#port {
+    padding-left: 50px;
+text-decoration: #2196F3;
+}
+#kont {
+    padding-left: 50px; 
+}
+#email {
+margin-left: 300px;
+}
+#tel {
+padding-left: 50px;
+}
+
 /* БАНЕР */
 
 .baner {
@@ -80,6 +120,9 @@ margin-left: auto;
 /* ПЕРЕВАГИ */
 .text_box {
     margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+line-height: 24px;
     }
     .text_box_all {
         margin-left: 215px;
@@ -88,24 +131,48 @@ margin-left: auto;
         flex-direction: row;
         margin-top: 94px;
     }
-
+.text_box {
+    font-family: 'Roboto', sans-serif;
+}
+.text_perevagy {
+    letter-spacing: 0.03em;
+color: #757575;
+}
 /* ЩО РОБИМО */
 .inwork_all {
     margin-left: auto;
     margin-right: auto;
-}
-.inwork {
     width: 370px;
     height: 294px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inwork1 {
+
+    margin-left: auto;
     
+}
+.inwork2 {
+    margin-left: auto;
+    padding-left: 30px;
+}
+.inwork3 {
+    margin-left: auto;
+    padding-left: 30px;
 }
 #wwd_h2 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 /* КОМАНДА */
+.teamh2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 .team {
     box-sizing: border-box;
     border: 0px;
@@ -152,9 +219,33 @@ background-color: #2F303A;
 #logo_f {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
+padding-top: auto;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+}
+.adres {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+
 }
 .footer_txt {
     margin-left: 215px;
-    padding-top: 60px;
+    padding-top: auto;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 30px;
+}
+.footer_all {
     
 }
